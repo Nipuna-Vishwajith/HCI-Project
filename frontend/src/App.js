@@ -9,6 +9,7 @@ function App() {
       <BrowserRouter>
       <Routes>
         <Route path='/' element={<Student />}></Route>
+        <Route path='/' element={<Student />}></Route>
         <Route path='/create' element={<CreateStudent />}></Route>
       </Routes>
       </BrowserRouter>
